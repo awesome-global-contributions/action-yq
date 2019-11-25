@@ -1,0 +1,14 @@
+name: 'YQ Script'
+description: 'A python environment with yq (and jq) installed'
+author: 'awesome-global-contributions'
+branding:
+  icon: 'python'
+  color: 'blue'
+inputs:
+  file:
+    description: 'The shell script to run'
+    required: true
+runs:
+  using: 'docker'
+  image: 'dockerfile'
+
