@@ -1,4 +1,4 @@
-FROM pyhton:3-alpine
+FROM python:3-alpine
 
 LABEL authors="Oscar Ablinger <dev.ablinger@gmail.com>, Adrien Lemaire <lemaire.adrien@gmail.com>"
 LABEL version="0.1.0"
