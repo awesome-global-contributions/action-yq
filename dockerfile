@@ -13,5 +13,6 @@ LABEL com.github.actions.color="blue"
 RUN apk --update --no-cache add jq && pip install yq
 
 ADD entrypoint.sh /entrypoint.sh
+RUN chmod a+x /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
