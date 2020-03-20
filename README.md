@@ -1,6 +1,6 @@
 # action-yq
 
-This Github action provides a docker environment with yq, vim and python
+This Github action provides a docker environment with yq, python and a few utilities
 installed.
 
 ## Usage
