@@ -10,7 +10,7 @@ LABEL com.github.actions.description="A python environment with yq (and jq) inst
 LABEL com.github.actions.icon="python"
 LABEL com.github.actions.color="blue"
 
-RUN apk --update --no-cache add jq && pip install yq
+RUN apk --update --no-cache add jq bash && pip install yq
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod a+x /entrypoint.sh
